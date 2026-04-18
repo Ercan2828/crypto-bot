@@ -53,7 +53,7 @@ Je bent eerlijk over risicos maar ook enthousiast over echte kansen.
 Houd antwoorden overzichtelijk en niet te lang."""
 
         body = {
-            "model": "claude-sonnet-4-20250514",
+            "model": "claude-sonnet-4-5",
             "max_tokens": 800,
             "system": systeem,
             "messages": [{"role": "user", "content": vraag}]
